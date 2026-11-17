@@ -38,9 +38,10 @@ void setup() {
   // Training data (XOR) 
   // INPUTS
   // (Number of columns same as number of input nodes)
-  double X[4][2] = {{0,0},
-                    {0,1},
-                    {1,0},
+  // (0/1 scaled to -1/+1)
+  double X[4][2] = {{-1,-1},
+                    {-1,1},
+                    {1,-1},
                     {1,1}};
 
   // TARGETS
