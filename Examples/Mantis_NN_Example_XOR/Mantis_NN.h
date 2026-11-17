@@ -130,7 +130,7 @@ C++ Coding
 //#define NN_HL_NORMALISATION
 
 // GRADIENT CLIPPING
-#define NN_USE_GRADIENT_CLIPPING
+//#define NN_USE_GRADIENT_CLIPPING
 #define NN_GRADIENT_CLIPPING_COEF 0.9
 
 // WEIGHTS INITIALIZATION
@@ -169,7 +169,7 @@ C++ Coding
 
 // OTHER PARAMS
 #define NN_BIAS_INIT_VAL 1.0         // Initial value for bias nodes
-#define NN_TRAINING_SPEED 0.1        // Training speed   
+#define NN_TRAINING_SPEED 0.3        // Training speed   
 #define NN_LEAKY_RELU_COEFF 0.01     // Coeff used in Leaky ReLU and ELU activation functions
 
 // TRAINING
